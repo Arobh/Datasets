@@ -1,8 +1,8 @@
-#Gith-Demo
+# Gith-Demo
 This is Gith Demo file
 
-#Name
+# Name
 Arobh Kumar
 
-#college name
+# college name
 MGCUB

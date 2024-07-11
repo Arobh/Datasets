@@ -4,5 +4,5 @@ This is Gith Demo file
 # Name
 Arobh Kumar
 
-# college name
+# College name
 MGCUB

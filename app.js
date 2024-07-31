@@ -20,13 +20,13 @@ function btnFlash(btn){
     btn.classList.add("flashBtn");
     setTimeout(function() {
         btn.classList.remove("flashBtn");
-    }, 500);
+    }, 1000);
 }
 function userFlash(btn){
     btn.classList.add("userFlash");
     setTimeout(function() {
         btn.classList.remove("userFlash");
-    }, 500);
+    }, 1000);
 }
 
 function levelUp() {

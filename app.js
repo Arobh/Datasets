@@ -10,7 +10,7 @@ let h2 = document.querySelector("h2");
 let h3 = document.querySelector("h3");
 document.addEventListener("keypress", function(){
     if (started == false) {
-        console.log("Game Started");
+        // console.log("Game Started");
         started = true;       
         levelUp(); 
     }
@@ -20,13 +20,13 @@ function btnFlash(btn){
     btn.classList.add("flashBtn");
     setTimeout(function() {
         btn.classList.remove("flashBtn");
-    }, 1000);
+    }, 500);
 }
 function userFlash(btn){
     btn.classList.add("userFlash");
     setTimeout(function() {
         btn.classList.remove("userFlash");
-    }, 1000);
+    }, 500);
 }
 
 function levelUp() {
@@ -40,7 +40,7 @@ function levelUp() {
     let randColor = btns[randIdx];
     let randBtn = document.querySelector(`.${randColor}`);
     gameSeq.push(randColor);
-    console.log(gameSeq);
+    // console.log(gameSeq);
     btnFlash(randBtn);
 }
 
